@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add, change, or remove an element from a table</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="h1_text">Добавление, изменение и удаление элемента из таблицы</h1>
+
+        <form>
+            <p>
+                <label class="label" for="">Имя</label>
+                <input class="input" type="text" placeholder="Bruce Reyes" name="task">
+            </p>
+            <p>
+                <label class="label" for="">Возраст</label>
+                <input class="input" type="number" placeholder="24" name="born">
+            </p>
+            <button class="inner_form_btn">Показать</button>
+        </form>
+
+
+        <div class="block_table">
+
+            <div class="table_th">
+
+                <div class="flex">
+                    <p class="p_no">No</p>
+                    <p class="p_name">Имя студента</p>
+                    <p class="p_born">Год рождения</p>
+                    <p class="p_action">Действия</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="container2">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th class="second_th">Имя студента</th>
+                    <th class="third_th">Год рождения</th>
+                    <th class="fourth_th">Действия</th>
+                </tr>
+            </thead>
+            <!-- <tbody>
+            <tr>
+                <td>1</td>
+                <td class="td_name">Bruce Reyes</td>
+                <td class="td_born">1997</td>
+                <td class="td_img">
+                    <img class="img_edit" src="./img/edit_icon.png" alt="">
+                    <img class="img_delete" src="./img/delete_icon.gif" alt="">
+                </td>
+            </tr>
+        </tbody> -->
+            <tfoot></tfoot>
+        </table>
+        
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
